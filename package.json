@@ -1,0 +1,33 @@
+{
+  "name": "solveiq-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "framer-motion": "latest",
+    "jsonwebtoken": "latest",
+    "lucide-react": "latest",
+    "mongoose": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "latest",
+    "browserslist": "^4.28.9",
+    "caniuse-lite": "^1.0.30001810",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "vite": "^6.3.5"
+  }
+}
